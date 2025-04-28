@@ -3,6 +3,7 @@ const app = express();
 const cors= require('cors');
 const path=require('path');
 
+
 app.use(cors());
 // Middleware to parse JSON data
 app.use(express.json());
